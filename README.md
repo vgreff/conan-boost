@@ -12,3 +12,8 @@ conan install ..
 cmake .. -G "Unix Makefiles"
 cmake --build .
 ```
+## emacs
+
+```
+make -C build VERBOSE=1 -j 10```
+```
